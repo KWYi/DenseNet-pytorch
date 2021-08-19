@@ -52,7 +52,7 @@ class Denselayers(nn.Module):
         return torch.cat((input, output), dim=1)
 
 
-class DenseNet(nn.Module):
+class DenseNet_v1(nn.Module):
     def __init__(self, layers_num, num_init_feature=False, growth_rate=None, drop_rate=0.):
         super(DenseNet, self).__init__()
         self.layers_num = layers_num
