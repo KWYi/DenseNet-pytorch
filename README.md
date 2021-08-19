@@ -6,6 +6,8 @@ This code has been used for the paper "Visual Explanation of a Deep Learning Sol
 ## Usage
 ```
 from DenseNet import DenseNet_v1
+
+model = DenseNet(layers_num=5, growth_rate=13, drop_rate=0.5).to(device=DEVICE)
 ```
 
 ## Data Preprocessing
