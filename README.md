@@ -1,5 +1,5 @@
 # DenseNet
-This is a PyTorch implementation of DenseNet (Densely Connected Convolutional Networks, Huang et al., https://arxiv.org/abs/1608.06993).
+This is a PyTorch implementation of DenseNet.
 
 This code has been used for the paper "Visual Explanation of a Deep Learning Solar Flare Forecast Model and Its Relationship to Physical Parameters" (https://doi.org/10.3847/1538-4357/abdebe).
 
